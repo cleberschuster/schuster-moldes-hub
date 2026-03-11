@@ -1,73 +1,27 @@
-# Welcome to your Lovable project
+## Schuster Moldes Digitais
 
-## Project info
+Projeto de landing page estática para **Schuster Moldes Digitais**, focada em apresentar serviços de modelagem digital de roupas.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+### Stack
 
-## How can I edit this code?
+- **Astro** (SPA/MPA estática)
+- **TypeScript**
+- **Tailwind CSS**
 
-There are several ways of editing your application.
+### Scripts
 
-**Use Lovable**
+- **`npm install`**: instala dependências
+- **`npm run dev`**: sobe o servidor de desenvolvimento em `http://localhost:4321`
+- **`npm run build`**: gera o build de produção em `dist/`
+- **`npm run preview`**: faz o preview do build de produção
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Estrutura principal
 
-Changes made via Lovable will be committed automatically to this repo.
+- `src/pages/index.astro`: página inicial
+- `src/layouts/Layout.astro`: layout base (head, SEO, schema)
+- `src/components/*.astro`: seções da página (hero, portfólio, CTA, footer, botão flutuante de WhatsApp)
+- `src/index.css`: estilos globais e utilitários customizados
 
-**Use your preferred IDE**
+### Requisitos
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Node.js 18+ (recomendado)
